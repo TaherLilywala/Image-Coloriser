@@ -6,4 +6,4 @@ Werkzeug==2.0.1
 matplotlib==3.3.2
 gevent==20.9.0
 opencv_python==4.5.3.56
-tensorflow==2.5.0
+tensorflow_cpu==2.5.0
