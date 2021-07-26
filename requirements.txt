@@ -1,5 +1,5 @@
 Flask==2.0.1
-tensorflow-cpu==2.4.1
+tensorflow==2.4.1
 tqdm==4.50.2
 Keras==2.1.6
 numpy==1.19.2
