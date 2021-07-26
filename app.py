@@ -13,8 +13,6 @@ from tqdm import tqdm
 import re
 import matplotlib.pyplot as plt
 
-from pml import app port = int(os.environ.get('PORT', 5000)) app.run(host='0.0.0.0', port=port)
-
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template, send_file
 from werkzeug.utils import secure_filename
