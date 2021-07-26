@@ -13,6 +13,8 @@ from tqdm import tqdm
 import re
 import matplotlib.pyplot as plt
 
+from pml import app port = int(os.environ.get('PORT', 5000)) app.run(host='0.0.0.0', port=port)
+
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template, send_file
 from werkzeug.utils import secure_filename
@@ -28,7 +30,7 @@ MODEL_PATH = 'models/model_coloriser.h5'
 model = tf.keras.models.load_model(MODEL_PATH)
 # print('Model loaded. Start serving...')
 
-print('Model loaded. Check http://127.0.0.1:5000/')
+#print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 @app.route('/', methods=['GET'])
@@ -68,4 +70,5 @@ def upload():
 
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
