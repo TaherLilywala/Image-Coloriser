@@ -1,0 +1,10 @@
+Flask==2.0.1
+tensorflow_gpu==2.4.1
+tqdm==4.50.2
+Keras==2.1.6
+numpy==1.19.2
+Werkzeug==2.0.1
+matplotlib==3.3.2
+gevent==20.9.0
+opencv_python==4.5.3.56
+tensorflow==2.5.0
