@@ -2,12 +2,12 @@ from __future__ import division, print_function
 # coding=utf-8
 import numpy as np
 import tensorflow as tf
-import keras
+# import keras
 import cv2
-from keras import models
-from keras.layers import MaxPool2D,Conv2D,UpSampling2D,Input,Dropout
+from tensorflow.keras import models
+from tensorflow.keras.layers import MaxPool2D,Conv2D,UpSampling2D,Input,Dropout
 from tensorflow.keras.models import Sequential
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import img_to_array
 import os
 from tqdm import tqdm
 import re
