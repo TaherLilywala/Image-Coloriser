@@ -22,7 +22,8 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/model_coloriser.h5'
+basepath = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(basepath, 'models/model_coloriser.h5')
 
 # Load your trained model
 model = tf.keras.models.load_model(MODEL_PATH)
