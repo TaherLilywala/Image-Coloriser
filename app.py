@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 # Model saved with Keras model.save()
 basepath = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(basepath, 'models/model_coloriser.h5')
+MODEL_PATH = os.path.join(basepath, 'models/model_coloriser')
 
 # Load your trained model
 model = tf.keras.models.load_model(MODEL_PATH)
