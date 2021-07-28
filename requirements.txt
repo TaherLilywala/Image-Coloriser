@@ -5,5 +5,6 @@ Werkzeug==2.0.1
 matplotlib==3.4.2
 gevent==20.9.0
 opencv-python==4.5.3.56
-tensorflow-cpu==2.5.0
+tensorflow==1.15.2
+keras==2.1.6
 gunicorn==20.1.0
